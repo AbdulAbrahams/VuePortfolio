@@ -31,8 +31,8 @@
         .aboutpic{
           position: relative;
           top: 6px;
-          width: calc(97%);
-          height: calc(97.8%);
+          width: calc(95.3%);
+          height: calc(97%);
         }
 
         .me{
@@ -77,14 +77,14 @@ overflow: hidden;
 .me .myLines::after{
     content: '';
     position: absolute;
-    inset: 4px;
+    inset: 7px;
     background: rgb(26, 26, 26);
 }
         .aboutsec h2{
             color: #ff0000;
             font-weight: 900;
             font-size: 6vh;
-            padding: 8%;
+            margin-top: 8%;
           }
           .aboutsec p{
             color: aliceblue;

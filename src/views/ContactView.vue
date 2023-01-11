@@ -37,6 +37,7 @@
 .form-control{
     border: 1px solid red;
     background: rgb(26, 26, 26);
+    color: red;
 }
 
 .subButton{

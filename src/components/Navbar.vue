@@ -20,7 +20,7 @@
 </div> -->
 <nav class="navbar fixed-top my-2">
   <div class="container-fluid">
-    <span class="navbar-brand"><img src="https://i.postimg.cc/66dv9ZGS/wahhaab-web-development-high-resolution-logo-color-on-transparent-background.png" width="125px" height="80px"></span>
+    <router-link class="navbar-brand" to="/"><img src="https://i.postimg.cc/66dv9ZGS/wahhaab-web-development-high-resolution-logo-color-on-transparent-background.png" width="125px" height="80px"></router-link>
     <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
       <label class="toggler" for="toggle">☰</label>
     </button>
@@ -42,6 +42,9 @@
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#"><router-link to="/testimonials">Testimonials</router-link></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#"><router-link to="/projects">Projects</router-link></a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#"><router-link to="/contact">Contact</router-link></a>
@@ -103,7 +106,7 @@ nav a.router-link-exact-active {
 
 .offcanvas{
   background-color: #7a1111;
-  height: 45%;
+  height: 50%;
 }
 
 </style>

@@ -2,7 +2,7 @@
     <main>
         <div class="container-lg" style="display:inline-block;">
             <div class="row justify-content-center mx-2">
-            <div class="col-sm-4 mx-5" v-for="person in people">
+            <div class="col-sm-4 mx-4" v-for="person in people">
             <div class="person">
                 <div class="lines"></div>
                     <div class="cardImage">
@@ -176,11 +176,11 @@ overflow: hidden;
 
 .person .cardImage img{
     position: absolute;
-    top: 6px;
-    left: 6px;
+    top: 5px;
+    left: 5px;
     z-index: 1;
-    width: calc(95%);
-    height: calc(95%);
+    width: calc(96.5%);
+    height: calc(96.5%);
 
 }
 
