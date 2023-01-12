@@ -1,6 +1,10 @@
 <template>
+    <div class="resume">
+    <h1>Resume</h1>
     <Timeline />
-    <Skills />
+    <Skills /> 
+    </div>
+ 
 </template>
 
 <script>
@@ -13,4 +17,11 @@ import Skills from '../components/Skills.vue'
 </script>
 
 <style scoped>
+.resume{
+    min-height: 100vh;
+}
+.resume h1{
+    margin-top: 4%;
+    color: red;
+}
 </style>

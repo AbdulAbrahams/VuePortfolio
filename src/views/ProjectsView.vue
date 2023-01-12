@@ -1,44 +1,16 @@
 <template>
     <main>
-        <h1 style="margin-bottom:4%;margin-top:4%;">Projects</h1>
-        <div class="container-lg" style="display:inline-block;">
+        <h1 style="margin-bottom:4%;margin-top:4%; color:red;">Projects</h1>
+    <div class="container-lg" style="display:inline-block;">
             <div class="row justify-content-center mx-2">
-
-                <div class="col-sm-9 mx-2" v-for="person in people">
-        <div class="card my-3 shadow-sm">
-        <img :src="person.image">
-        <div class="card-body">
-          <p class="card-text" value="Nike">{{ person.name }}</p>
-          <div class="d-flex justify-content-between align-items-center">
-            <div class="btn-group">
-              <a :href="person.netlify"><button type="button" class=" btn btn-danger mx-4 p-2 px-4">Netlify</button></a>
-            </div>
-            <button class=" btn btn-danger mx-4 my-5 p-2 px-4">GitHub</button>
-          </div>
+            <div class="col-sm-4 mx-2 my-2 bg-dark skillsCol" v-for="pic in projects">
+                     <p class="card-text my-2">{{ pic.name }}</p> 
+                     <img :src="pic.image" alt="">
+                      <a :href="pic.github"><button class="proBut btn mx-4 p-2 px-4">GitHub</button></a>
+                      <a :href="pic.netlify"><button class="proBut btn mx-4 p-2 px-4">Live</button></a>
         </div>
-      </div>
+        </div>
     </div>
-
-            <!-- <div class="col-sm-4 mx-2" v-for="person in people">
-                <div class="project">
-                <div class="lines"></div>
-                <div class=content>
-                    <img :src="person.image">
-                <h4>{{ person.name }}</h4>
-                <div class="speech">{{ person.testimonials}}</div>
-                <div class="buttons my-5">
-                    <button class="btn btn-lg btn-outline-danger mx-5 p-2 px-2">Netflify</button>
-                    <button class="btn btn-lg btn-outline-danger mx-5 p-2 px-2">Github</button>
-                </div>
-                   
-        </div>
-    </div> 
-        </div> -->
-        </div>
-        </div>
-        
-        
-   
     </main>
   
 </template>
@@ -48,42 +20,42 @@
         name:'Card',
         data(){
             return{
-                people:[
+                projects:[
                     {
                         name: 'Old Portolio',
-                        image: 'https://i.postimg.cc/qv3rdNZJ/land.jpg',
-                        netlify: '',
-                        github: ''
+                        image: 'https://i.postimg.cc/3J3mdYyG/Screenshot-2023-01-12-134548.png',
+                        netlify: 'https://abdulwahhaab.netlify.app/',
+                        github: 'https://github.com/AbdulAbrahams/ProjectPortfolio.git'
                     },
                     {
-                        name: 'Sneaky Kicks E-commerce Store',
+                        name: 'Sneaky Kicks Store',
                         image: 'https://i.postimg.cc/vmqHY4dc/Screenshot-2023-01-11-151336.png',
-                        netlify: '',
-                        github: ''
+                        netlify: 'https://sneakykickscpt.netlify.app/',
+                        github: 'https://github.com/AbdulAbrahams/JS-project.git'
                     },
                     {
                         name: 'Exclusive Kicks',
                         image: 'https://i.postimg.cc/BnBP95Q3/exclusive.png',
                         netlify: 'https://exclusivekicks.netlify.app/',
-                        github: ''
+                        github: 'https://github.com/AbdulAbrahams/exclusive-kicks.git'
                     },
                     {
                         name: 'First Portfolio',
                         image: 'https://i.postimg.cc/tJc7kD5d/old-portfolio.png',
-                        netlify: '',
-                        github: ''
+                        netlify: 'https://abdulabrahams.netlify.app/',
+                        github: 'https://github.com/AbdulAbrahams/Portfolio.git'
                     },
                     {
                         name: 'JavaScript Calculator',
                         image: 'https://i.postimg.cc/QMnLHPxq/Screenshot-2023-01-11-153133.png',
-                        netlify: '',
-                        github: ''
+                        netlify: 'https://abdulcalculator.netlify.app/',
+                        github: 'https://github.com/AbdulAbrahams/calculator.git'
                     },
                     {
                         name: 'Comic Strip',
                         image: 'https://i.postimg.cc/CLKKtynF/saitama.png',
-                        netlify: '',
-                        github: ''
+                        netlify: 'https://saitamavsgoku.netlify.app/',
+                        github: 'https://github.com/AbdulAbrahams/comic.git'
                     }
                 ]
             }
@@ -104,21 +76,27 @@ main{
     min-height: 100vh;
     overflow-x: hidden;
 }
-
-.card{
-    border: 0px;
+.skillsCol{
+    height: 35vh;
+    max-width: 350px;
 }
 
-.card img{
-    height: 45vh;
+.skillsCol img{
+    margin: 3%;
+    max-width: 80%;
+    max-height: 50%;
 }
-.card-body{
-    background: rgb(26, 26, 26);
+
+.skillsCol img:hover{
+    opacity: 30%;
 }
 
 .card-text{
     color: red;
-    font-size: 18px;
-    margin-top: 4%;
+}
+
+.proBut{
+    color: rgb(255, 255, 255);
+    background-color: rgb(223, 21, 21);
 }
 </style>

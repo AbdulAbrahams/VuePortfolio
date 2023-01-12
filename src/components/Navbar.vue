@@ -88,12 +88,12 @@ nav {
 }
 
 .navbar-toggler{
-    border: 2px solid orangered !important;
+    border: 2px solid rgb(255, 0, 0) !important;
 }
 
 .toggler{
     font-size: 3vh;
-    color: orangered;
+    color: rgb(255, 0, 0);
 }
 nav a {
   font-weight: bold;
@@ -107,6 +107,10 @@ nav a.router-link-exact-active {
 .offcanvas{
   background-color: #7a1111;
   height: 50%;
+}
+
+.offcanvas-title{
+  font-weight: bolder;
 }
 
 </style>

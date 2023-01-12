@@ -1,5 +1,5 @@
 <template>
-    <footer class="d-flex justify-content-between align-items-center py-3 my-5 border-top border-danger container-lg">
+    <footer class="d-flex justify-content-between align-items-center py-3 my-5 container-lg">
           <div class="col-md-4 mx-5 d-flex align-items-center">
             <a href="#" class="mb-3 me-2 mb-md-0 text-muted text-decoration-none lh-1">
               <span class="text-muted"><img src="https://i.postimg.cc/66dv9ZGS/wahhaab-web-development-high-resolution-logo-color-on-transparent-background.png" width="70px" height="40px"></span>
@@ -22,6 +22,10 @@
 </script>
 
 <style scoped>
+
+footer{
+  border-top: 2px solid red;
+}
 .footer-bar{
     font-size: 25px;
 }

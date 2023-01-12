@@ -33,7 +33,9 @@
 </script>
 
 <style scoped>
-
+.contactsec{
+  min-height: 100vh;
+}
 .form-control{
     border: 1px solid red;
     background: rgb(26, 26, 26);
@@ -50,6 +52,8 @@
 .contact{
     margin-top: 8%;
 }
+
+
 
 @media screen and (width <600px){
     .contact{

@@ -1,5 +1,6 @@
 <template>
     <div class="space">
+        <h1 style="color:red;">Testimonials</h1>
         <Card />
     </div>
 </template>
@@ -15,7 +16,7 @@ import Card from '../components/Card.vue'
 <style scoped>
 
 .space{
-    margin-top: 8%;
+    margin-top: 5%;
 }
 
 @media screen and (width <600px){

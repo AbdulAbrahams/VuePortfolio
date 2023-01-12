@@ -22,10 +22,11 @@
 <style scoped>
         .aboutsec{
             display: flex;
-            justify-content: center;
+            justify-content: flex-start;
             align-items: center;
             width: 100%;
             margin-bottom: 8%;
+            min-height: 100vh;
           }
   
         .aboutpic{
@@ -38,11 +39,11 @@
         .me{
     position: relative;
     min-width: 300px;
-    width: 900px;
+    width: 1200px;
     height: 450px;
     background: black;
     color: orangered;
-    margin-top: 8%;
+    /* margin-top: 8%; */
     /* transition: 0.5s; */
 }
 
@@ -84,7 +85,9 @@ overflow: hidden;
             color: #ff0000;
             font-weight: 900;
             font-size: 6vh;
-            margin-top: 8%;
+            /* margin-top: 8%; */
+            left: 0;
+            line-height: 5rem;
           }
           .aboutsec p{
             color: aliceblue;
