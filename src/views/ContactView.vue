@@ -1,7 +1,7 @@
 <template>
         <div class="contactsec container-lg" id="Contact">
       <h1 class="contact" style="padding-bottom: 6%; color: red;">Contact Me</h1>
-      <form action="https://formspree.io/f/xzbwjdvo" method="POST" class="form" style="padding-bottom: 3%;">
+      <form action="https://formspree.io/f/xzbwjdvo" method="POST" class="form" style="padding-bottom: 7%;">
           <div class="row">
             <div class="col">
               <input type="text" class="form-control" name="name" placeholder="First name" aria-label="First name" required>
@@ -23,6 +23,8 @@
           
           <button type="submit" class="btn subButton" name="submit">Submit</button>
         </form>
+
+        <text style="color:red;">Call me: 083 400 4653</text>
     </div>
 </template>
 

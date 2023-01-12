@@ -99,4 +99,7 @@ main{
     color: rgb(255, 255, 255);
     background-color: rgb(223, 21, 21);
 }
+.proBut:hover{
+    background-color: rgb(197, 56, 56);
+}
 </style>

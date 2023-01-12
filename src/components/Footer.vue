@@ -26,14 +26,16 @@
 footer{
   border-top: 2px solid red;
 }
-.footer-bar{
-    font-size: 25px;
-}
 .footer-bar a{
+  font-size: 25px;
     margin: 3px;
 }
 
 .footer-bar a i{
     color: rgb(255, 0, 0) !important;
+}
+
+.footer-bar a i:hover{
+    color: rgb(197, 56, 56) !important;
 }
 </style>

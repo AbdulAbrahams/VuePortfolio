@@ -2,6 +2,7 @@
     <div class="resume">
     <h1>Resume</h1>
     <Timeline />
+    <h1>Skills</h1>
     <Skills /> 
     </div>
  

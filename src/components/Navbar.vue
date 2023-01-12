@@ -32,22 +32,22 @@
       <div class="offcanvas-body" data-bs-dismiss="offcanvas">
         <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
           <li class="nav-item">
-            <a class="nav-link"><router-link to="/">Home</router-link></a>
+            <router-link to="/"><a class="nav-link" href="#">Home</a></router-link>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#"><router-link to="/about">About</router-link></a>
+            <router-link to="/about"><a class="nav-link" href="#">About</a></router-link>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#"> <router-link to="/resume">Resume</router-link> </a>
+            <router-link to="/resume"><a class="nav-link" href="#">Resume</a></router-link>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#"><router-link to="/testimonials">Testimonials</router-link></a>
+            <router-link to="/testimonials"><a class="nav-link" href="#">Testimonials</a></router-link>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#"><router-link to="/projects">Projects</router-link></a>
+            <router-link to="/projects"><a class="nav-link" href="#">Projects</a></router-link>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#"><router-link to="/contact">Contact</router-link></a>
+            <router-link to="/contact"><a class="nav-link" href="#">Contact</a></router-link>
           </li>
 
 
@@ -112,5 +112,14 @@ nav a.router-link-exact-active {
 .offcanvas-title{
   font-weight: bolder;
 }
-
+.offcanvas-body ul li a{
+  color: black;
+  width: 100%;
+}
+.offcanvas-body ul li :active {
+  color: #ffffff;
+}
+.offcanvas-body ul li a:hover{
+  color: rgb(255, 255, 255);
+}
 </style>
