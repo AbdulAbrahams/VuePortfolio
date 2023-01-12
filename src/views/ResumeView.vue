@@ -25,4 +25,10 @@ import Skills from '../components/Skills.vue'
     margin-top: 4%;
     color: red;
 }
+
+@media screen and (width <600px){
+    .resume h1{
+        margin-top: 20%;
+    }
+}
 </style>

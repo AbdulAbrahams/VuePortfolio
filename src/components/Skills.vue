@@ -45,4 +45,8 @@
     max-width: 100%;
     max-height: 80%;
 }
+
+.skillsCol:hover{
+    opacity: 50%;
+}
 </style>

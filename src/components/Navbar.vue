@@ -120,6 +120,6 @@ nav a.router-link-exact-active {
   color: #ffffff;
 }
 .offcanvas-body ul li a:hover{
-  color: rgb(255, 255, 255);
+  color: rgb(220, 220, 220);
 }
 </style>

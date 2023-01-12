@@ -49,7 +49,7 @@
 }
 
 .details small{
-  color: white;
+  color: rgb(220, 220, 220);
 }
 
 .details h4{
@@ -61,7 +61,7 @@
 }
 
 .desc{
-  color: white;
+  color: rgb(220, 220, 220);
   margin-top: 4%;
 }
 </style>

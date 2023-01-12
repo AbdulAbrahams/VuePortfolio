@@ -1,6 +1,5 @@
 <template>
-    <main>
-        <h1 style="margin-bottom:4%;margin-top:4%; color:red;">Projects</h1>
+        <h1 class="proHead" style="margin-bottom:4%;margin-top:4%; color:red;">Projects</h1>
     <div class="container-lg" style="display:inline-block;">
             <div class="row justify-content-center mx-2">
             <div class="col-sm-4 mx-2 my-2 bg-dark skillsCol" v-for="pic in projects">
@@ -11,7 +10,6 @@
         </div>
         </div>
     </div>
-    </main>
   
 </template>
 
@@ -101,5 +99,11 @@ main{
 }
 .proBut:hover{
     background-color: rgb(197, 56, 56);
+}
+
+@media screen and (width <600px){
+    .proHead{
+        margin-top: 20% !important;
+    }
 }
 </style>

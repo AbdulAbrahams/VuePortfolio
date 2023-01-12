@@ -90,7 +90,7 @@ overflow: hidden;
             line-height: 5rem;
           }
           .aboutsec p{
-            color: aliceblue;
+            color: rgb(220, 220, 220);
             padding-left: 8%;
           }
 
@@ -118,6 +118,12 @@ overflow: hidden;
               padding-left: 0;
             }
           }
+
+          @media screen and (width <600px){
+    .aboutsec{
+        margin-top: 20%;
+    }
+}
 </style>
 
 

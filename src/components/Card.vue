@@ -12,7 +12,7 @@
                      <div class="details">
                 <h4>{{ person.name }}</h4>
                 <h5 style="color: orange;">Web Developer</h5>
-                <div class="speech">{{ person.testimonials}}</div>
+                <div class="speech mx-1">{{ person.testimonials}}</div>
                     </div>
         </div>
     </div> 
@@ -92,7 +92,7 @@ main{
     position: relative;
     min-width: 300px;
     max-width: 400px;
-    height: 450px;
+    height: 520px;
     background: black;
     color: orangered;
     /* transition: 0.5s; */
@@ -111,8 +111,8 @@ overflow: hidden;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    width: 600px;
-    height: 120px;
+    width: 700px;
+    height: 200px;
     background: linear-gradient(transparent, rgb(255, 0, 0), rgb(255, 0, 0), transparent);
     animation: animate 8s linear infinite;
 }
@@ -196,7 +196,7 @@ overflow: hidden;
 }
 
 .person .content h4{
-margin-top: 22vh;
+margin-top: 26vh;
 color: rgb(255, 0, 0);
 }
 
@@ -207,6 +207,6 @@ color: rgb(255, 0, 0);
 
 .speech{
     margin-top: 3%;
-    color: white;
+    color: rgb(220, 220, 220);
 }
 </style>

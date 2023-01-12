@@ -24,7 +24,11 @@
           <button type="submit" class="btn subButton" name="submit">Submit</button>
         </form>
 
-        <text style="color:red;">Call me: 083 400 4653</text>
+        <div class="deats justify-content-center">
+          <text class="mx-5" style="color:red;  font-size: 15px;">Call me: 083 400 4653</text>
+        <text style="color:red; font-size: 15px;">Email: abdulabrahams2002@gmail.com</text>
+        </div>
+        
     </div>
 </template>
 
@@ -55,11 +59,22 @@
     margin-top: 8%;
 }
 
+.deats{
+  display: flex;
+}
 
 
 @media screen and (width <600px){
     .contact{
         margin-top: 20%;
+    }
+
+    .contact form{
+      margin-top: 10%;
+    }
+
+    .deats{
+      flex-direction: column;
     }
 }
 </style>
