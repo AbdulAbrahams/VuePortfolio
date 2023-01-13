@@ -5,13 +5,23 @@
     <h1>Skills</h1>
     <Skills /> 
     </div>
- 
+         <button class="BackNext">
+            <router-link to="/about" @click="scrollTop()"><a>Back</a></router-link>
+          </button>
+          <button class="BackNext">
+            <router-link to="/testimonials" @click="scrollTop()"><a>Next</a></router-link>
+          </button>
 </template>
 
 <script>
 import Timeline from '../components/Timeline.vue'
 import Skills from '../components/Skills.vue'
     export default {
+        methods: {
+      scrollTop() {
+        document.body.scrollTop = document.documentElement.scrollTop = 0;
+      }
+    },
         name: 'Resume',
         components:{Timeline, Skills}
     }

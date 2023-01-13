@@ -48,4 +48,24 @@ nav a.router-link-exact-active {
   color: #ffffff;
 }
 
+.BackNext{
+  margin-top: 20px;
+  border: 2px solid red;
+  background: transparent;
+}
+
+.BackNext:hover{
+  border: 2px solid rgb(189, 16, 16);
+  background: rgb(189, 16, 16);
+}
+
+.BackNext a{
+  padding: 10px;
+  text-decoration: none;
+  color: red;
+}
+
+.BackNext a:hover{
+  color: rgb(255, 255, 255);
+}
 </style>

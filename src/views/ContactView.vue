@@ -30,11 +30,19 @@
         </div>
         
     </div>
+
+    <button class="BackNext">
+            <router-link to="/projects" @click="scrollTop()"><a>Back</a></router-link>
+          </button>
 </template>
 
 <script>
     export default {
-        
+      methods: {
+      scrollTop() {
+        document.body.scrollTop = document.documentElement.scrollTop = 0;
+      }
+    }
     }
 </script>
 
@@ -53,6 +61,12 @@
     width: 60%;
     border: 1px solid red;
     color: red;
+}
+
+.subButton:hover{
+  border: 1px solid rgb(189, 16, 16);
+  background-color: rgb(189, 16, 16);
+  color: white;
 }
 
 .contact{

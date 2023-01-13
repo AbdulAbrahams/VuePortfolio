@@ -34,8 +34,7 @@ footer{
 .footer-bar a i{
     color: rgb(255, 0, 0) !important;
 }
-
 .footer-bar a i:hover{
-    color: rgb(197, 56, 56) !important;
+    color: rgb(255, 255, 255) !important;
 }
 </style>

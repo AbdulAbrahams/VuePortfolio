@@ -11,10 +11,23 @@
       <p>When I am not in front of the computer coding, I spend my time playing basketball🏀 working out at the gym🏋️‍♂️playing games with my friends🎮and spending time with my family👪.</p>
     </div>
   </section>
+
+          <button class="BackNext">
+            <router-link to="/" @click="scrollTop()"><a>Back</a></router-link>
+          </button>
+          <button class="BackNext">
+            <router-link to="/resume" @click="scrollTop()"><a>Next</a></router-link>
+          </button>
 </template>
 
 <script>
   export default {
+
+    methods: {
+      scrollTop() {
+        document.body.scrollTop = document.documentElement.scrollTop = 0;
+      }
+    }
     
   }
 </script>

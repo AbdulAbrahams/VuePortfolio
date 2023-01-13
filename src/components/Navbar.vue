@@ -32,22 +32,22 @@
       <div class="offcanvas-body" data-bs-dismiss="offcanvas">
         <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
           <li class="nav-item">
-            <router-link to="/"><a class="nav-link" href="#">Home</a></router-link>
+            <router-link to="/" @click="scrollTop()"><a class="nav-link" href="#">Home</a></router-link>
           </li>
           <li class="nav-item">
-            <router-link to="/about"><a class="nav-link" href="#">About</a></router-link>
+            <router-link to="/about" @click="scrollTop()"><a class="nav-link" href="#">About</a></router-link>
           </li>
           <li class="nav-item">
-            <router-link to="/resume"><a class="nav-link" href="#">Resume</a></router-link>
+            <router-link to="/resume" @click="scrollTop()"><a class="nav-link" href="#">Resume</a></router-link>
           </li>
           <li class="nav-item">
-            <router-link to="/testimonials"><a class="nav-link" href="#">Testimonials</a></router-link>
+            <router-link to="/testimonials" @click="scrollTop()"><a class="nav-link" href="#">Testimonials</a></router-link>
           </li>
           <li class="nav-item">
-            <router-link to="/projects"><a class="nav-link" href="#">Projects</a></router-link>
+            <router-link to="/projects" @click="scrollTop()"><a class="nav-link" href="#">Projects</a></router-link>
           </li>
           <li class="nav-item">
-            <router-link to="/contact"><a class="nav-link" href="#">Contact</a></router-link>
+            <router-link to="/contact" @click="scrollTop()"><a class="nav-link" href="#">Contact</a></router-link>
           </li>
 
 
@@ -62,6 +62,11 @@
 
 <script>
     export default {
+      methods: {
+      scrollTop() {
+        document.body.scrollTop = document.documentElement.scrollTop = 0;
+      }
+    },
        name: 'Navbar', 
     }
 </script>

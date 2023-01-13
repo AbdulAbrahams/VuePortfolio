@@ -1,20 +1,39 @@
 <template>
-        <h1 class="proHead" style="margin-bottom:4%;margin-top:4%; color:red;">Projects</h1>
-    <div class="container-lg" style="display:inline-block;">
-            <div class="row justify-content-center mx-2">
-            <div class="col-sm-4 mx-2 my-2 bg-dark skillsCol" v-for="pic in projects">
-                     <p class="card-text my-2">{{ pic.name }}</p> 
-                     <img :src="pic.image" alt="">
-                      <a :href="pic.github"><button class="proBut btn mx-4 p-2 px-4">GitHub</button></a>
-                      <a :href="pic.netlify"><button class="proBut btn mx-4 p-2 px-4">Live</button></a>
+<h1 class="proHead" style="margin-bottom:4%;margin-top:4%; color:red;">Projects</h1>
+    <div class="body">
+        <div class="row justify-content-center mx-2">
+            <div class="card mx-2 my-3" v-for="content in projects">
+        <div class="poster">
+            <img :src="content.image" alt="">
         </div>
+        <div class="details">
+            <h2>{{ content.name }}</h2>
+            <div class="buttons">
+                <a :href="content.github"><button class="mx-3 p-1">GitHub</button></a>
+                <a :href="content.netlify"><button class="mx-3 p-1 px-2">Live</button></a> 
+            </div>
         </div>
+    </div> 
+        </div>
+       
     </div>
-  
+
+    <button class="BackNext">
+            <router-link to="/testimonials" @click="scrollTop()"><a>Back</a></router-link>
+          </button>
+          <button class="BackNext">
+            <router-link to="/contact" @click="scrollTop()"><a>Next</a></router-link>
+          </button>
+    
 </template>
 
 <script>
-    export default {
+     export default {
+        methods: {
+      scrollTop() {
+        document.body.scrollTop = document.documentElement.scrollTop = 0;
+      }
+    },
         name:'Card',
         data(){
             return{
@@ -62,43 +81,103 @@
 </script>
 
 <style scoped>
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-main{
+.body{
+    display: flex;
     justify-content: center;
     align-items: center;
     min-height: 100vh;
     overflow-x: hidden;
 }
-.skillsCol{
-    height: 35vh;
-    max-width: 350px;
+
+.card{
+    background-color: transparent;
+    position: relative;
+    max-width: 400px;
+    height: 350px;
+    overflow: hidden;
+    border-radius: 10px;
+    border: 0px;
 }
 
-.skillsCol img{
-    margin: 3%;
-    max-width: 80%;
-    max-height: 50%;
+.card .poster{
+    position: relative;
+    overflow: hidden;
 }
 
-.skillsCol img:hover{
-    opacity: 30%;
+.card .poster::before{
+    content: '';
+    position: absolute;
+    bottom: -100px;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(0deg,rgb(22, 18, 18) 40%, transparent);
+    transition: 0.5s;
+    z-index: 1;
 }
 
-.card-text{
-    color: red;
+.card:hover .poster::before{
+    bottom: 0px;
 }
 
-.proBut{
+.card .poster img{
+    width: 100%;
+    height: 65vh;
+    transition: 0.5s;
+}
+
+.card:hover .poster img{
+    transform: translateY(-50px);
+    filter: blur(3px);
+}
+
+.card .details{
+    position: absolute;
+    width: 100%;
+    left: 0;
+    bottom: 0;
+    z-index: 2;
+    padding: 20px;
+    transition: 0.5s;
+}
+
+.card .details .buttons{
+    position: absolute;
+    width: 100%;
+    left: 0;
+    bottom: -60px;
+    z-index: 2;
+    padding: 20px;
+    transition: 0.5s;
+    background: transparent;
+    color: white;
+
+}
+
+.card:hover .details{
+    bottom: 50px;
+}
+
+.card .details h2{
+    color: rgb(252, 20, 20);
+    font-size: 31px;
+    max-width: 2500px;
+}
+
+.card .details .buttons{
+    margin-top: 15px;
+}
+
+.details .buttons a button{
+    background: rgb(201, 19, 19);
+    border: 2px solid rgb(201, 19, 19);
     color: rgb(255, 255, 255);
-    background-color: rgb(223, 21, 21);
 }
-.proBut:hover{
-    background-color: rgb(197, 56, 56);
+
+.details .buttons a button:hover{
+    background: red;
+    border: 2px solid red;
+    color: rgb(255, 255, 255);
+    transition: 0.3s;
 }
 
 @media screen and (width <600px){
