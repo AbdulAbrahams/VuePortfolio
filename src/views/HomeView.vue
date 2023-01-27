@@ -3,7 +3,9 @@
         <img src="https://i.postimg.cc/V6kJtpmG/d3cc6718eaa8898fba1e612e62511bd9.gif">
         <h4>Web Developer</h4>
         <h1>Abdul Wahhaab Abrahams</h1>
-        <button class="learnBtn btn"><router-link to="/about" style="text-decoration: none; color: red;">Learn About Me</router-link></button>
+        <button class="learnBtn btn">
+            <router-link to="/about" style="text-decoration: none; color: red;"><a>Learn About Me</a></router-link>
+        </button>
     </main>
 
 </template>
@@ -45,8 +47,15 @@ export default {
 }
 
 .learnBtn:hover{
-    color: black;
-    background-color: rgb(209, 186, 186);
+    color: rgb(255, 255, 255) !important;
+    background-color: rgb(255, 0, 0);
+}
+
+.learnBtn a:hover{
+    width: 100%;
+    height: 100%;
+    color: white !important;
+
 }
 
 @media screen and (width <900px){
