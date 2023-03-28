@@ -2,8 +2,7 @@
         <div class="container">
         <div class="row">
         <div class="col-md-4 peeps" v-for="person in people">
-   test
-    </div> 
+   test 
         </div>
         </div>
         </div>
