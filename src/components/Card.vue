@@ -1,5 +1,4 @@
 <template>
-    <main>
         <div class="container">
             <div class="row justify-content-center">
             <div class="col-md-4 mt-5 peeps" v-for="person in people">
@@ -19,10 +18,6 @@
         </div>
         </div>
         </div>
-        
-        
-   
-    </main>
   
 </template>
 
@@ -75,8 +70,7 @@
   min-width: 360px;
 }
 
-main{
-    min-height: 100vh;
+.container{
     overflow-x: hidden;
 }
 
