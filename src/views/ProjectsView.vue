@@ -1,4 +1,5 @@
 <template>
+<div class="space"></div>
 <h1 class="proHead" style="margin-bottom:4%;margin-top:4%; color:red;">Projects</h1>
     <div class="body">
         <div class="row justify-content-center mx-2">
