@@ -30,7 +30,7 @@
                         image: 'https://i.postimg.cc/QMSTTYb4/pngegg-6.png'
                     },
                     {
-                        image: 'https://i.postimg.cc/9ML3wFtK/pngegg.png'
+                        image: 'https://i.postimg.cc/CxMw1XgR/pngegg-2.png'
                     },
                     {
                         image: 'https://i.postimg.cc/Zn6MFbrJ/pngegg-1.png'
