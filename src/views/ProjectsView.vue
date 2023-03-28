@@ -18,7 +18,7 @@
        
     </div>
 
-    <button class="BackNext">
+    <button class="BackNext1">
             <router-link to="/testimonials" @click="scrollTop()"><a>Back</a></router-link>
           </button>
           <button class="BackNext">
