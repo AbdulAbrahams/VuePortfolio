@@ -1,6 +1,6 @@
 <template>
         <div class="contactsec container-lg" id="Contact">
-      <h1 class="contact" style="padding-bottom: 6%; color: red;">Contact Me</h1>
+      <h1 class="contact my-5" style="padding-bottom: 6%; color: red;">Contact Me</h1>
       <form action="https://formspree.io/f/xzbwjdvo" method="POST" class="form" style="padding-bottom: 7%;">
           <div class="row">
             <div class="col">
