@@ -94,7 +94,7 @@
     background-color: transparent;
     position: relative;
     max-width: 400px;
-    height: 300px;
+    height: 270px;
     overflow: hidden;
     border-radius: 10px;
     border: 0px;
