@@ -5,7 +5,7 @@
     <h1>Skills</h1>
     <Skills /> 
     </div>
-         <button class="BackNext">
+         <button class="BackNext1">
             <router-link to="/about" @click="scrollTop()"><a>Back</a></router-link>
           </button>
           <button class="BackNext">
