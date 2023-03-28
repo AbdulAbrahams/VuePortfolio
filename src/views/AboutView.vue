@@ -1,4 +1,5 @@
 <template>
+<div class="space"></div>
   <section class="aboutsec container-lg"  id="About">
     <div class="me">
       <div class="myLines"></div>
