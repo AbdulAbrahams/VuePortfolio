@@ -39,29 +39,17 @@
         data(){
             return{
                 projects:[
+                     {
+                        name: 'Supremium E-commerce Store',
+                        image: 'https://i.postimg.cc/3R3fmhk5/Screenshot-2023-03-28-155001.png',
+                        netlify: 'https://supremium100.web.app/',
+                        github: 'https://github.com/AbdulAbrahams/Capstone.git'
+                    },
                     {
                         name: 'Old Portolio',
                         image: 'https://i.postimg.cc/3J3mdYyG/Screenshot-2023-01-12-134548.png',
                         netlify: 'https://abdulwahhaab.netlify.app/',
                         github: 'https://github.com/AbdulAbrahams/ProjectPortfolio.git'
-                    },
-                    {
-                        name: 'Sneaky Kicks Store',
-                        image: 'https://i.postimg.cc/vmqHY4dc/Screenshot-2023-01-11-151336.png',
-                        netlify: 'https://sneakykickscpt.netlify.app/',
-                        github: 'https://github.com/AbdulAbrahams/JS-project.git'
-                    },
-                    {
-                        name: 'Exclusive Kicks',
-                        image: 'https://i.postimg.cc/BnBP95Q3/exclusive.png',
-                        netlify: 'https://exclusivekicks.netlify.app/',
-                        github: 'https://github.com/AbdulAbrahams/exclusive-kicks.git'
-                    },
-                    {
-                        name: 'First Portfolio',
-                        image: 'https://i.postimg.cc/tJc7kD5d/old-portfolio.png',
-                        netlify: 'https://abdulabrahams.netlify.app/',
-                        github: 'https://github.com/AbdulAbrahams/Portfolio.git'
                     },
                     {
                         name: 'JavaScript Calculator',
@@ -70,10 +58,22 @@
                         github: 'https://github.com/AbdulAbrahams/calculator.git'
                     },
                     {
+                        name: 'Sneaky Kicks Store',
+                        image: 'https://i.postimg.cc/vmqHY4dc/Screenshot-2023-01-11-151336.png',
+                        netlify: 'https://sneakykickscpt.netlify.app/',
+                        github: 'https://github.com/AbdulAbrahams/JS-project.git'
+                    },
+                    {
                         name: 'Comic Strip',
                         image: 'https://i.postimg.cc/CLKKtynF/saitama.png',
                         netlify: 'https://saitamavsgoku.netlify.app/',
                         github: 'https://github.com/AbdulAbrahams/comic.git'
+                    },
+                    {
+                        name: 'Exclusive Kicks',
+                        image: 'https://i.postimg.cc/BnBP95Q3/exclusive.png',
+                        netlify: 'https://exclusivekicks.netlify.app/',
+                        github: 'https://github.com/AbdulAbrahams/exclusive-kicks.git'
                     }
                 ]
             }
