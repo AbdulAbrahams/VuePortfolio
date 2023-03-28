@@ -61,6 +61,21 @@ nav a.router-link-exact-active {
   background: transparent;
 }
 
+.BackNext1:hover{
+  border: 2px solid rgb(189, 16, 16);
+  background: rgb(189, 16, 16);
+}
+
+.BackNext1 a{
+  padding: 10px;
+  text-decoration: none;
+  color: red;
+}
+
+.BackNext1 a:hover{
+  color: rgb(255, 255, 255);
+}
+
 .BackNext:hover{
   border: 2px solid rgb(189, 16, 16);
   background: rgb(189, 16, 16);
