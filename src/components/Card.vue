@@ -2,8 +2,17 @@
         <div class="container">
         <div class="row">
         <div class="col-md-4 peeps" v-for="person in people">
-        <div class="person card">
-   test 
+        <div class="person">
+        <div class="lines"></div>
+                    <div class="cardImage">
+                        <img :src="person.image">
+                     </div>
+                <div class=content>
+                     <div class="details">
+                <h4>{{ person.name }}</h4>
+                <h5 style="color: orange;">Web Developer</h5>
+                <div class="speech mx-1">{{ person.testimonials}}</div>
+                    </div>
         </div>
         </div>
         </div>
@@ -76,9 +85,8 @@ width: 100px;
 
 .person{
     margin-top: 20%;
-    position: relative;
     min-width: 300px;
-    max-width: 400px;
+    width: 400px;
     height: 520px;
     background: black;
     color: orangered;
