@@ -1,7 +1,7 @@
 <template>
         <div class="container">
             <div class="row justify-content-center">
-            <div class="col-md-4 mt-5 peeps" v-for="person in people">
+            <div class="col-md-4 peeps" v-for="person in people">
             <div class="person">
                 <div class="lines"></div>
                     <div class="cardImage">
@@ -73,11 +73,6 @@
 .container{
     overflow-x: hidden;
 }
-
-
-.row{
-    justify-content: center !important;    
-} 
 
 .person{
     margin-top: 20%;
