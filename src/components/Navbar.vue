@@ -67,7 +67,7 @@ body{
 }
 
 .navbar{
-background: rgba(26, 26, 26, 0);
+background: rgb(12, 12, 12);
 }
 
 nav {
