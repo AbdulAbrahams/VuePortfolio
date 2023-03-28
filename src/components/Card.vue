@@ -13,6 +13,7 @@
                 <h5 style="color: orange;">Web Developer</h5>
                 <div class="speech mx-1">{{ person.testimonials}}</div>
                     </div>
+               </div>
         </div>
         </div>
         </div>
