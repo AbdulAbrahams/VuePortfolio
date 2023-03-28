@@ -80,8 +80,6 @@
 }
 
 main{
-    justify-content: center;
-    align-items: center;
     min-height: 100vh;
     overflow-x: hidden;
 }
@@ -92,7 +90,7 @@ main{
 } */
 
 .col{
-  justify-content: center;
+  justify-content: center !important;
 }
 
 .person{
@@ -216,5 +214,11 @@ color: rgb(255, 0, 0);
 .speech{
     margin-top: 3%;
     color: rgb(220, 220, 220);
+}
+
+@media screen and (width <= 375px) {
+  .peeps{
+  min-width: 300px;
+}
 }
 </style>
