@@ -59,7 +59,7 @@
 
 @media screen and (width 425px < 768px ) {
 .skillsCol img{
-    margin-top: 2%;
+    margin-top: 2% !important;
 }
 }
 </style>
