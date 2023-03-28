@@ -97,7 +97,7 @@ nav a.router-link-exact-active {
 
 .offcanvas{
   background-color: #7a1111;
-  height: 50%;
+  height: 65%;
 }
 
 .offcanvas-title{
