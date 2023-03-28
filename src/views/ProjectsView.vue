@@ -86,7 +86,6 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: 100vh;
     overflow-x: hidden;
 }
 
@@ -94,7 +93,7 @@
     background-color: transparent;
     position: relative;
     max-width: 400px;
-    height: 270px;
+    height: 250px;
     overflow: hidden;
     border-radius: 10px;
     border: 0px;
