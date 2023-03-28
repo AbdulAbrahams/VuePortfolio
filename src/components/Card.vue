@@ -1,8 +1,8 @@
 <template>
     <main>
         <div class="container-lg" style="display:inline-block;">
-            <div class="row justify-content-center mx-2">
-            <div class="col-sm-4 mx-4" v-for="person in people">
+            <div class="row justify-content-center">
+            <div class="col-md-4" v-for="person in people">
             <div class="person">
                 <div class="lines"></div>
                     <div class="cardImage">
