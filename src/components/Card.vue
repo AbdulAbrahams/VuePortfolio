@@ -2,18 +2,7 @@
         <div class="container">
         <div class="row">
         <div class="col-md-4 peeps" v-for="person in people">
-            <div class="person card">
-                <div class="lines"></div>
-                    <div class="cardImage">
-                        <img :src="person.image">
-                     </div>
-                <div class=content>
-                     <div class="details">
-                <h4>{{ person.name }}</h4>
-                <h5 style="color: orange;">Web Developer</h5>
-                <div class="speech mx-1">{{ person.testimonials}}</div>
-                    </div>
-        </div>
+   test
     </div> 
         </div>
         </div>
