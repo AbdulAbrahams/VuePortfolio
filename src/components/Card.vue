@@ -1,7 +1,7 @@
 <template>
         <div class="container">
         <div class="row">
-        <div class="col prac"></div>
+        <div class="col prac">Test</div>
         </div>
         </div>
   
@@ -50,6 +50,10 @@
 </script>
 
 <style scoped>
+
+.row{
+justify-content: center;
+}
 
 .prac{
 background: red;
