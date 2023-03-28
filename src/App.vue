@@ -48,6 +48,13 @@ nav a.router-link-exact-active {
   color: #ffffff;
 }
 
+.BackNext1{
+  margin-top: 20px;
+  border-right: 0px !important;
+  border: 2px solid red;
+  background: transparent;
+}
+
 .BackNext{
   margin-top: 20px;
   border: 2px solid red;
