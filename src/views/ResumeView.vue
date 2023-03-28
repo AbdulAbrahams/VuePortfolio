@@ -1,6 +1,7 @@
 <template>
+   <div class="space"></div>
     <div class="resume">
-    <h1 class="my-5">Resume</h1>
+    <h1>Resume</h1>
     <Timeline />
     <h1>Skills</h1>
     <Skills /> 
