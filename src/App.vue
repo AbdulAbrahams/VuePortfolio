@@ -24,6 +24,10 @@ export default{
   font-size: 18px;
 }
 
+.space{
+    margin-top: 80px;
+}
+
 nav {
   padding: 30px;
 }
