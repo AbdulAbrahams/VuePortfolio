@@ -121,7 +121,7 @@
 
 .card .poster img{
     width: 100%;
-    height: 50vh;
+    height: 45vh;
     transition: 0.5s;
 }
 
