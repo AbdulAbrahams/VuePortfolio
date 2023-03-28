@@ -75,9 +75,9 @@
 }
 
 
-/* .row{
-    margin-top: 8%;
-} */
+.row{
+    justify-content: center !important;    
+} 
 
 .person{
     margin-top: 20%;
