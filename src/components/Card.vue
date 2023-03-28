@@ -1,8 +1,8 @@
 <template>
     <main>
-        <div class="container-lg" style="display:inline-block;">
+        <div class="container" style="display:inline-block;">
             <div class="row justify-content-center">
-            <div class="col-md-4" v-for="person in people">
+            <div class="col-md-4 mt-5 peeps" v-for="person in people">
             <div class="person">
                 <div class="lines"></div>
                     <div class="cardImage">
@@ -75,6 +75,10 @@
     box-sizing: border-box;
 }
 
+.peeps{
+  min-width: 360px;
+}
+
 main{
     justify-content: center;
     align-items: center;
@@ -86,6 +90,10 @@ main{
 /* .row{
     margin-top: 8%;
 } */
+
+.col{
+  justify-content: center;
+}
 
 .person{
     margin-top: 20%;
