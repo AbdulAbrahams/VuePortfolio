@@ -197,6 +197,12 @@ color: rgb(255, 0, 0);
     color: rgb(220, 220, 220);
 }
 
+@media screen and (width 420px <= 770px) {
+  .peeps{
+  justify-content:center !important;
+}
+}
+
 @media screen and (width <= 375px) {
   .peeps{
   min-width: 300px;
