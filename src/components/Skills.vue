@@ -1,7 +1,7 @@
 <template>
       <div class="container-lg" style="display:inline-block;">
             <div class="row justify-content-center mx-2">
-            <div class="col-sm-4 mx-2 my-2 bg-dark skillsCol" v-for="pic in skills">
+            <div class="col-sm-3 mx-2 my-2 bg-dark skillsCol" v-for="pic in skills">
                       <img :src="pic.image" alt="">
         </div>
         </div>
@@ -47,7 +47,8 @@
 }
 
 .skillsCol img{
-    margin: 5%;
+    margin-top: 5%;
+    margin-bottom: 5%;
     max-width: 100%;
     max-height: 80%;
 }
