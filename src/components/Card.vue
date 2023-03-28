@@ -196,7 +196,7 @@ overflow: hidden;
 }
 
 .person .content h4{
-margin-top: 26vh;
+margin-top: 190px;
 color: rgb(255, 0, 0);
 }
 
