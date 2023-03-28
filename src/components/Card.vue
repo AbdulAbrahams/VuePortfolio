@@ -88,7 +88,6 @@ width: 100px;
     margin-top: 20%;
     position: relative;
     min-width: 300px;
-    width: 400px;
     height: 520px;
     background: black;
     color: orangered;
