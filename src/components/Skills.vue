@@ -56,4 +56,11 @@
 .skillsCol:hover{
     opacity: 50%;
 }
+
+@media screen and (width 425px <=768px ) {
+.skillsCol img{
+    margin-top: 0%;
+    margin-bottom: 0%;
+}
+}
 </style>
