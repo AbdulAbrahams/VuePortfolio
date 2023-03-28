@@ -1,4 +1,5 @@
 <template>
+   <Navbar2/>
     <main class="homeBack">
         <img src="https://i.postimg.cc/V6kJtpmG/d3cc6718eaa8898fba1e612e62511bd9.gif">
         <h4>Web Developer</h4>
@@ -14,6 +15,11 @@
 
 
 export default {
+import Navbar2 from './components/Navbar2.vue'
+export default{
+  name: 'Home',
+  components: {Navbar2},
+}
 }
 </script>
 
