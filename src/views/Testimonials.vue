@@ -1,8 +1,9 @@
 <template>
-    <div class="space">
+
+
         <h1 style="color:red;">Testimonials</h1>
         <Card />
-    </div>
+
 
     <button class="BackNext">
             <router-link to="/resume" @click="scrollTop()"><a>Back</a></router-link>
