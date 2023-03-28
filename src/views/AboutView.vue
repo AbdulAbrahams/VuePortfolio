@@ -107,7 +107,7 @@ overflow: hidden;
             padding-left: 8%;
           }
 
-          @media screen and (width <= 700px) {
+          @media screen and (width <= 768px) {
               body{
                 overflow-x: hidden !important;
               }
