@@ -41,7 +41,7 @@
                 projects:[
                      {
                         name: 'Supremium E-commerce Store',
-                        image: 'https://i.postimg.cc/3R3fmhk5/Screenshot-2023-03-28-155001.png',
+                        image: 'https://i.postimg.cc/brg8q9sX/pics.png',
                         netlify: 'https://supremium100.web.app/',
                         github: 'https://github.com/AbdulAbrahams/Capstone.git'
                     },
