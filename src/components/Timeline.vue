@@ -3,7 +3,7 @@
             <div class="justify-content-center mx-2">
             <div class="mx-5" v-for="person in resume">
                      <div class="details">
-                      <h5 class="my-4" style="color: orange; margin-bottom: 20px;">📅  {{ person.period }}</h5>
+                      <h6 class="my-5" style="color: orange; margin-bottom: 20px;">📅  {{ person.period }}</h6>
                 <h4>{{ person.name }}</h4>
                  <img :src="person.image" alt="">
                 <div class="desc">{{ person.description}}</div>
