@@ -29,13 +29,8 @@ import Card from '../components/Card.vue'
 <style scoped>
 
 .space{
-    margin-top: 5%;
+    margin-top: 80px;
 }
 
-@media screen and (width <600px){
-    .space{
-        margin-top: 20%;
-    }
-}
 
 </style>
