@@ -40,7 +40,6 @@
             align-items: center;
             width: 100%;
             margin-bottom: 8%;
-            min-height: 100vh;
           }
   
         .aboutpic{
