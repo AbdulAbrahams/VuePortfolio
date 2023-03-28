@@ -86,6 +86,7 @@ width: 100px;
 
 .person{
     margin-top: 20%;
+    position: relative;
     min-width: 300px;
     width: 400px;
     height: 520px;
