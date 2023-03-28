@@ -24,10 +24,6 @@ export default{
   font-size: 18px;
 }
 
-body{
-  background: rgb(12, 12, 12);
-}
-
 nav {
   padding: 30px;
 }
