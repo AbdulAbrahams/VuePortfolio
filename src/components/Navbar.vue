@@ -1,23 +1,5 @@
 <template>
-    <!-- <nav>
-    <router-link to="/">Home</router-link> |
-    <router-link to="/about">About</router-link> |
-    <router-link to="/skills">Skills</router-link> |
-    <router-link to="/resume">Resume</router-link> |
-    <router-link to="/testimonials">Testimonials</router-link> |
-    <router-link to="/contact">Contact</router-link>
-  </nav> -->
-  
-  <!-- <div class="collapse" id="navbarToggleExternalContent">
-  <div class="p-4">
-    <router-link to="/">Home</router-link> |
-    <router-link to="/about">About</router-link> |
-    <router-link to="/skills">Skills</router-link> |
-    <router-link to="/resume">Resume</router-link> |
-    <router-link to="/testimonials">Testimonials</router-link> |
-    <router-link to="/contact">Contact</router-link>
-  </div>
-</div> -->
+
 <nav class="navbar fixed-top my-2">
   <div class="container-fluid">
     <router-link class="navbar-brand" to="/"><img src="https://i.postimg.cc/66dv9ZGS/wahhaab-web-development-high-resolution-logo-color-on-transparent-background.png" width="125px" height="80px"></router-link>
@@ -82,6 +64,10 @@
 
 body{
   background: rgba(26, 26, 26, 0);
+}
+
+.navbar{
+background: rgba(26, 26, 26, 0);
 }
 
 nav {
