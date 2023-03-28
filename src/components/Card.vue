@@ -76,6 +76,7 @@
 }
 
 .peeps{
+  justify-content: center !important;
   min-width: 360px;
 }
 
@@ -88,10 +89,6 @@ main{
 /* .row{
     margin-top: 8%;
 } */
-
-.col{
-  justify-content: center !important;
-}
 
 .person{
     margin-top: 20%;
