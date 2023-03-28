@@ -78,6 +78,7 @@ width: 100px;
 .peeps{
   justify-content: center !important;
   min-width: 360px;
+  max-width: 420px;
 }
 
 .container{
