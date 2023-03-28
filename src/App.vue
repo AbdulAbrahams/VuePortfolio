@@ -22,6 +22,7 @@ export default{
   text-align: center;
   color: #2c3e50;
   font-size: 18px;
+  background: rgb(12, 12, 12);
 }
 
 nav {
