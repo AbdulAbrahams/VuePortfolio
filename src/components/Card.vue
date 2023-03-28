@@ -1,8 +1,8 @@
 <template>
         <div class="container">
-            <div class="row justify-content-center">
+            <div class="row">
             <div class="col-md-4 peeps" v-for="person in people">
-            <div class="person">
+            <div class="person card">
                 <div class="lines"></div>
                     <div class="cardImage">
                         <img :src="person.image">
