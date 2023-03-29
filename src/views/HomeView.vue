@@ -7,7 +7,7 @@
         <h4>Web Developer</h4>
         <h1>Abdul Wahhaab Abrahams</h1>
         <button class="learnBtn btn">
-            <router-link to="/about" style="text-decoration: none; color: red;"><a>Learn About Me</a></router-link>
+            <router-link to="/about" style="text-decoration: none; color: red;" @click="scrollTop()"><a>Learn About Me</a></router-link>
         </button>
     </main>
 
@@ -15,7 +15,7 @@
 
 <script>
 
-import Navbar from '../components/Navbar2.vue'
+import Navbar2 from '../components/Navbar2.vue'
 export default{
   name: Home
   components: {Navbar2},
