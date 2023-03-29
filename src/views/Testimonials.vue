@@ -1,5 +1,7 @@
 <template>
 
+<Navbar/>
+
 <div class="space"></div>
         <h1 style="color:red;">Testimonials</h1>
         <Card />
@@ -11,6 +13,8 @@
           <button class="BackNext">
             <router-link to="/projects" @click="scrollTop()"><a>Next</a></router-link>
           </button>
+          
+<Footer/>          
 </template>
 
 <script>
