@@ -27,6 +27,11 @@
 footer{
   border-top: 2px solid red;
 }
+
+.text{
+   font-size: 13px;
+}
+
 .footer-bar a{
   font-size: 25px;
     margin: 3px;
