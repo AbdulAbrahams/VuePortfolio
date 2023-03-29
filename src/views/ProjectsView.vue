@@ -126,7 +126,7 @@ import Footer from '../components/Footer.vue'
 
 .card .poster img{
     width: 100%;
-    height: 45vh;
+    height: 40vh;
     transition: 0.5s;
 }
 
