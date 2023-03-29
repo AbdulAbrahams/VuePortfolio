@@ -17,14 +17,18 @@
 <script>
 import Timeline from '../components/Timeline.vue'
 import Skills from '../components/Skills.vue'
-    export default {
-        methods: {
-      scrollTop() {
-        document.body.scrollTop = document.documentElement.scrollTop = 0;
-      }
-    },
+import Navbar from '../components/Navbar.vue'
+import Footer from '../components/Footer.vue' 
+
+export default {
         name: 'Resume',
-        components:{Timeline, Skills}
+        components:{Navbar, Footer, Timeline, Skills},
+        
+        methods: {
+            scrollTop() {
+                document.body.scrollTop = document.documentElement.scrollTop = 0;
+               }
+          },
     }
 </script>
 
