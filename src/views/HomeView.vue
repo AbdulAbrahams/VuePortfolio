@@ -3,12 +3,14 @@
 <NavbarTwo/>
 
     <main class="homeBack">
+    <div class="homes">
         <img src="https://i.postimg.cc/V6kJtpmG/d3cc6718eaa8898fba1e612e62511bd9.gif">
         <h4>Web Developer</h4>
         <h1>Abdul Wahhaab Abrahams</h1>
         <button class="learnBtn btn">
             <router-link to="/about" style="text-decoration: none; color: red;" @click="scrollTop()"><a>Learn About Me</a></router-link>
         </button>
+    </div>
     </main>
 
 </template>
@@ -32,6 +34,9 @@ export default{
     min-height: 100vh;
     width: 100vw;
     background-color: black;
+}
+
+.homes{
     top: 50%;
     left: 50%;
     position: absolute;
