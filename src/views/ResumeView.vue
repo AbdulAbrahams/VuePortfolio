@@ -44,7 +44,7 @@ export default {
 .resume h1{
     margin-top: 4%;
     color: red;
-    font-size: 28px;
+    font-size: 34px;
 }
 
 @media screen and (width <600px){
