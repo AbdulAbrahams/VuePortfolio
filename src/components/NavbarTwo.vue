@@ -1,6 +1,6 @@
 <template>
 
-<nav class="navbar fixed-top my-2">
+<nav class="navbar fixed-top py-3">
   <div class="container-fluid">
     <router-link class="navbar-brand" to="/"><img src="https://i.postimg.cc/66dv9ZGS/wahhaab-web-development-high-resolution-logo-color-on-transparent-background.png" width="125px" height="80px"></router-link>
     <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
