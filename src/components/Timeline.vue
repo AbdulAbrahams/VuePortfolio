@@ -57,6 +57,10 @@
   color: red;
 }
 
+.details h6{
+  font-size: 13px;
+}
+
 .details img{
   max-width: 100%;
 }
