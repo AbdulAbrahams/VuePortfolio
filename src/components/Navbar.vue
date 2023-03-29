@@ -39,7 +39,6 @@
     </div>
   </div>
 </nav>
-<router-view/>
 </template>
 
 <script>
