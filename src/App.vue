@@ -13,8 +13,11 @@ export default{
 
 <style>
  @import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');
-#app {
+ 
+ *{
   font-family: 'Orbitron', sans-serif;
+ }
+#app {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
