@@ -29,7 +29,7 @@ footer{
 }
 
 .text{
-   font-size: 13px;
+   font-size: 14px;
 }
 
 .footer-bar a{
