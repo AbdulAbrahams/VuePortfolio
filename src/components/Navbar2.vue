@@ -39,7 +39,6 @@
     </div>
   </div>
 </nav>
-<router-view/>
 </template>
 
 <script>
@@ -49,7 +48,7 @@
         document.body.scrollTop = document.documentElement.scrollTop = 0;
       }
     },
-       name: 'Navbar2', 
+       name: 'NavbarTwo', 
     }
 </script>
 
