@@ -45,7 +45,6 @@ export default{
     min-width: 40vw;
     max-width: 100%;
     max-height: 100%;
-    margin-top: 6%;
 }
 
 .homeBack h4{
@@ -72,17 +71,5 @@ export default{
     height: 100%;
     color: white !important;
 
-}
-
-@media screen and (width <900px){
-    .homeBack img{
-        margin-top: 25%;
-    }
-}
-
-@media screen and (width <550px){
-    .homeBack img{
-        margin-top: 60%;
-    }
 }
 </style>
