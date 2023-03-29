@@ -30,6 +30,7 @@ export default{
 <style>
 .homeBack{
     min-height: 100vh;
+    width: 100vw;
     background-color: black;
     top: 50%;
     left: 50%;
@@ -44,7 +45,6 @@ export default{
     min-width: 40vw;
     max-width: 100%;
     max-height: 100%;
-    margin-top: 6%;
 }
 
 .homeBack h4{
