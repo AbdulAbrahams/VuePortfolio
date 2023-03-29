@@ -79,6 +79,7 @@ nav {
 
 .navbar-toggler{
     border: 2px solid rgb(255, 0, 0) !important;
+    border-radius: 0px;
 }
 
 .toggler{
