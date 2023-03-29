@@ -82,6 +82,7 @@ export default{
 
 .contact{
     margin-top: 8%;
+    font-size: 34px;
 }
 
 .deats{
