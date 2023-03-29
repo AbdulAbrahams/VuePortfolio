@@ -1,4 +1,7 @@
 <template>
+
+<Navbar/>
+
       <div class="space"></div>
         <div class="contactsec container-lg" id="Contact">
       <h1 class="contact" style="padding-bottom: 6%; color: red;">Contact Me</h1>
@@ -35,16 +38,23 @@
     <button class="BackNext">
             <router-link to="/projects" @click="scrollTop()"><a>Back</a></router-link>
           </button>
+          
+<Footer/>          
 </template>
 
 <script>
-    export default {
-      methods: {
+import Navbar from '../components/Navbar.vue'
+import Footer from '../components/Footer.vue'
+export default{
+  name: 'Contact',
+  components: {Navbar,Footer},
+  
+    methods: {
       scrollTop() {
         document.body.scrollTop = document.documentElement.scrollTop = 0;
       }
     }
-    }
+  }
 </script>
 
 <style scoped>
