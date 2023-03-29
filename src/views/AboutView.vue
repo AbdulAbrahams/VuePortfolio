@@ -47,6 +47,7 @@ export default{
             justify-content: flex-start;
             align-items: center;
             width: 100%;
+            margin-top: 8%;
             margin-bottom: 8%;
           }
   
