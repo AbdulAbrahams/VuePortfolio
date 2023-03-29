@@ -3,7 +3,7 @@
 <Navbar/>
 
 <div class="space"></div>
-        <h1 style="color:red;">Testimonials</h1>
+        <h1 style="color:red; font-size: 34px;">Testimonials</h1>
         <Card />
 
 
