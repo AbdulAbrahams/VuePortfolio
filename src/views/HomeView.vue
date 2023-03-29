@@ -31,6 +31,11 @@ export default{
 .homeBack{
     min-height: 100vh;
     background-color: black;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
 }
 
 .homeBack img{
