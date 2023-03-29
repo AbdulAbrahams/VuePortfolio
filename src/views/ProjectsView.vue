@@ -1,4 +1,5 @@
 <template>
+<Navbar/>
 <div class="space"></div>
 <h1 class="proHead" style="margin-top:4%; color:red;">Projects</h1>
     <div class="body">
@@ -25,10 +26,13 @@
           <button class="BackNext">
             <router-link to="/contact" @click="scrollTop()"><a>Next</a></router-link>
           </button>
-    
+
+<Footer/>
 </template>
 
 <script>
+import Navbar from '../components/Navbar.vue'
+import Footer from '../components/Footer.vue' 
      export default {
         methods: {
       scrollTop() {
@@ -36,6 +40,7 @@
       }
     },
         name:'Card',
+        components:{Navbar, Footer},
         data(){
             return{
                 projects:[
