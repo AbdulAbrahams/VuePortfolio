@@ -1,7 +1,7 @@
 <template>
 <Navbar/>
 <div class="space"></div>
-<h1 class="proHead" style="margin-top:4%; color:red;">Projects</h1>
+<h1 class="proHead" style="margin-top:4%; color:red; font-size: 34px;">Projects</h1>
     <div class="body">
         <div class="row justify-content-center mx-2">
             <div class="card mx-2 my-3" v-for="content in projects">
