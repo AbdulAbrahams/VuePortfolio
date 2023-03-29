@@ -42,6 +42,7 @@ export default{
     position: absolute;
     transform: translate(-50%,-50%);
     box-sizing: border-box;
+    width: 100vw;
 }
 
 .homeBack img{
