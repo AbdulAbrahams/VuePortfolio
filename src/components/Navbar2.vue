@@ -64,6 +64,11 @@
 body{
   background: rgba(26, 26, 26, 0);
 }
+
+.navbar{
+background: black;
+}
+
 nav {
   padding: 30px;
 }
