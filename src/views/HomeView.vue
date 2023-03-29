@@ -1,6 +1,6 @@
 <template>
 
-<Navbar2/>
+<NavbarTwo/>
 
     <main class="homeBack">
         <img src="https://i.postimg.cc/V6kJtpmG/d3cc6718eaa8898fba1e612e62511bd9.gif">
@@ -15,10 +15,10 @@
 
 <script>
 
-import Navbar2 from '../components/Navbar2.vue'
+import NavbarTwo from '../components/NavbarTwo.vue'
 export default{
   name: Home
-  components: {Navbar2},
+  components: {NavbarTwo},
   
     methods: {
       scrollTop() {
