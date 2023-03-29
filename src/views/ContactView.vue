@@ -29,8 +29,8 @@
         </form>
 
         <div class="deats justify-content-center">
-          <text class="mx-5" style="color:red;  font-size: 15px;">Call me: 083 400 4653</text>
-        <text style="color:red; font-size: 15px;">Email: abdulabrahams2002@gmail.com</text>
+          <text class="mx-5" style="color:red;  font-size: 15px;">Call Me On : +27 83 400 4653</text>
+        <text style="color:red; font-size: 15px;">Email : abdulabrahams2002@gmail.com</text>
         </div>
         
     </div>
