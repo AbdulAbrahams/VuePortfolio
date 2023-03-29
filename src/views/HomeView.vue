@@ -17,7 +17,6 @@
 
 import NavbarTwo from '../components/NavbarTwo.vue'
 export default{
-  name: Home,
   components: {NavbarTwo},
   
     methods: {
