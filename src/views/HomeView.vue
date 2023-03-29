@@ -65,6 +65,7 @@ export default{
 .learnBtn{
     text-decoration: none;
     border: 2px solid red;
+    border-radius: 0px;
 }
 
 .learnBtn:hover{
