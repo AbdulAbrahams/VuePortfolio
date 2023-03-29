@@ -15,14 +15,18 @@
 
 <script>
 import Card from '../components/Card.vue'
-    export default {
-        methods: {
-      scrollTop() {
-        document.body.scrollTop = document.documentElement.scrollTop = 0;
-      }
-    },
+import Navbar from '../components/Navbar.vue'
+import Footer from '../components/Footer.vue' 
+
+export default {
         name: 'Testimonials',
-        components: {Card},
+        components:{Navbar, Footer, Card},
+        
+        methods: {
+            scrollTop() {
+                document.body.scrollTop = document.documentElement.scrollTop = 0;
+               }
+          },
     }
 </script>
 
