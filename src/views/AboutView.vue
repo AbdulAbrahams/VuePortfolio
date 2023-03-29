@@ -1,4 +1,5 @@
 <template>
+<Navbar/>
 <div class="space"></div>
   <section class="aboutsec container-lg"  id="About">
     <div class="me">
@@ -19,17 +20,24 @@
           <button class="BackNext">
             <router-link to="/resume" @click="scrollTop()"><a>Next</a></router-link>
           </button>
+          
+<Footer/>          
 </template>
 
 <script>
-  export default {
+  
+import Navbar from '../components/Navbar.vue'
+import Footer from '../components/Footer.vue'
 
+export default{
+  name: 'App',
+  components: {Navbar,Footer},
+  
     methods: {
       scrollTop() {
         document.body.scrollTop = document.documentElement.scrollTop = 0;
       }
     }
-    
   }
 </script>
 
