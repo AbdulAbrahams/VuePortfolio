@@ -56,9 +56,15 @@
     opacity: 50%;
 }
 
-@media screen and (width 425px < 768px ) {
+@media screen and (width < 768px) {
 .skillsCol img{
     margin-top: 2% !important;
+}
+}
+
+@media screen and (width < 425px) {
+.skillsCol img{
+    margin-top: 5% !important;
 }
 }
 </style>
