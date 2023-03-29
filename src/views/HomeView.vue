@@ -45,6 +45,7 @@ export default{
     min-width: 40vw;
     max-width: 100%;
     max-height: 100%;
+    margin-top: 6%;
 }
 
 .homeBack h4{
