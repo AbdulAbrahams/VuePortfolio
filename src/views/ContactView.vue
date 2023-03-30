@@ -28,9 +28,9 @@
           <button type="submit" class="btn subButton" name="submit">Submit</button>
         </form>
 
-        <div class="deats justify-content-center mx-5">
-          <text class="mx-1 my-3" style="color:red;  font-size: 15px;">Call Me On : +27 83 400 4653</text>
-        <text class="mx-1 my-3" style="color:red; font-size: 15px;">Email : abdulabrahams2002@gmail.com</text>
+        <div class="deats justify-content-between mx-5">
+          <text class="my-3" style="color:red;  font-size: 15px;">Call Me On : +27 83 400 4653</text>
+        <text class="my-3" style="color:red; font-size: 15px;">Email : abdulabrahams2002@gmail.com</text>
         </div>
         
     </div>
