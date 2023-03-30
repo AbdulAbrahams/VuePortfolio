@@ -203,6 +203,7 @@ color: rgb(255, 0, 0);
 
 .speech{
     margin-top: 3%;
+    font-size: 14px;
     color: rgb(220, 220, 220);
 }
 
