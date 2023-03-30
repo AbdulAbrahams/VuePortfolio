@@ -192,7 +192,7 @@ overflow: hidden;
 }
 
 .person .content h4{
-margin-top: 190px;
+margin-top: 175px;
 color: rgb(255, 0, 0);
 }
 
@@ -203,7 +203,6 @@ color: rgb(255, 0, 0);
 
 .speech{
     margin-top: 3%;
-    font-size: 14px;
     color: rgb(220, 220, 220);
 }
 
