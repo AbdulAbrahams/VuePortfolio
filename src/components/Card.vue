@@ -45,7 +45,7 @@
                     {
                         name: "Aneeqa Brown",
                         testimonials: "Abdul Wahhaab is a highly thought intellectual. His hardworking, creative but ambitious to recreate his vision exactly. He always provide a helping hand. He has great communication and leadership skills that a company needs.",
-                        image: "https://i.postimg.cc/mDRfXYvH/DSC-3548.jpg",
+                        image: "https://i.postimg.cc/6pgGv3DS/1667550652724.jpg",
                     },
                     {
                         name: "Jake Jansen",
