@@ -10,7 +10,7 @@
                 <div class=content>
                      <div class="details">
                 <h4>{{ person.name }}</h4>
-                <h5 style="color: orange;">{{ person.role }}</h5>
+                <h6 style="color: orange;">{{ person.role }}</h6>
                 <div class="speech mx-1">{{ person.testimonials}}</div>
                     </div>
                </div>
@@ -31,37 +31,37 @@
                         name: "Jia Daniels",
                         testimonials: "Abdul is a very productive and efficient person. He takes pride in his work and works very well in teams as well as alone. He is trustworthy and loyal and would be a great addition to any company.",
                         image: "https://i.postimg.cc/rmGy1V8y/IMG-9927.jpg",
-                        role: "Colleague",
+                        role: "Colleague/Web Developer",
                     },
                     {
                         name: "Savannah Samuels",
                         testimonials: "Abdul always strives to learn new things to help him in the future and his always available to help and teach other individuals. Always looks on the bright side of things and is always positive in any situation.",
                         image: "https://i.postimg.cc/mk61bgRT/C11-Savannah-Samuels-1.jpg",
-                        role: "Colleague",
+                        role: "Colleague/Web Developer",
                     },
                     {
                         name: "Abdul Azeez Kemp",
                         testimonials: "An absolute great guy, hard worker and a goal driven personality. Always takes on the next challenge that comes to him and knows how to communicate and socialise in his surroundings.",
                         image: "https://i.postimg.cc/nzbkJT23/C11-Abdul-Azeez-Kemp-1.jpg",
-                        role: "Colleague",
+                        role: "Colleague/Web Developer",
                     },
                     {
                         name: "Aneeqa Brown",
                         testimonials: "Abdul Wahhaab is a highly thought intellectual. His hardworking, creative but ambitious to recreate his vision exactly. He always provide a helping hand. He has great communication and leadership skills that a company needs.",
                         image: "https://i.postimg.cc/66fjfJ6z/DSC-3548.jpg",
-                        role: "Colleague",
+                        role: "Colleague/Web Developer",
                     },
                     {
                         name: "Jake Jansen",
                         testimonials: "Abdul is a very creative and dedicated person with what he does. Works well in teams and is a pro-active worker. Great communication skills and open to ideas of others. He is also very driven to be the best of his caliber.",
                         image: "https://i.postimg.cc/3JTxvGSz/C11-Jake-Jansen-3.jpg",
-                        role: "Colleague",
+                        role: "Colleague/Web Developer",
                     },
                     {
                         name: "Mu'eed Brown",
                         testimonials: "Abdul is a very ambitious person who is not afraid to work towards achieving his goals. He is also very creative with his work. He is one of the most creative developers around. Abdul won't be afraid to assist those in need.",
                         image: "https://i.postimg.cc/14hngYgd/DSC-3535-1.jpg",
-                        role: "Colleague",
+                        role: "Colleague/Web Developer",
                     }
                 ]
             }
