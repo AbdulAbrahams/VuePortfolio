@@ -40,7 +40,7 @@
                     {
                         name: "Abdul Azeez Kemp",
                         testimonials: "An absolute great guy, hard worker and a goal driven personality. Always takes on the next challenge that comes to him and knows how to communicate and socialise in his surroundings.",
-                        image: "https://i.postimg.cc/T3W6jd08/Screenshot-20221101-100639-edit-159098746871600.jpg",
+                        image: "https://i.postimg.cc/nzbkJT23/C11-Abdul-Azeez-Kemp-1.jpg",
                     },
                     {
                         name: "Aneeqa Brown",
