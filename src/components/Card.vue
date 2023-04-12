@@ -35,7 +35,7 @@
                     {
                         name: "Savannah Samuels",
                         testimonials: "Abdul always strives to learn new things to help him in the future and his always available to help and teach other individuals. Always looks on the bright side of things and is always positive in any situation.",
-                        image: "https://i.postimg.cc/9MBV4Lpr/IMG-20220904-134609-306.jpg",
+                        image: "https://i.postimg.cc/mk61bgRT/C11-Savannah-Samuels-1.jpg",
                     },
                     {
                         name: "Abdul Azeez Kemp",
