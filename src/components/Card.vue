@@ -55,7 +55,7 @@
                     {
                         name: "Mu'eed Brown",
                         testimonials: "Abdul is a very ambitious person who is not afraid to work towards achieving his goals. He is also very creative with his work. He is one of the most creative developers around. Abdul won't be afraid to assist those in need.",
-                        image: "https://i.postimg.cc/XvVsjxp2/my-image.jpg",
+                        image: "https://i.postimg.cc/14hngYgd/DSC-3535-1.jpg",
                     }
                 ]
             }
