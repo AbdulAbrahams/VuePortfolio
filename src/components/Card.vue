@@ -50,7 +50,7 @@
                     {
                         name: "Jake Jansen",
                         testimonials: "Abdul is a very creative and dedicated person with what he does. Works well in teams and is a pro-active worker. Great communication skills and open to ideas of others. He is also very driven to be the best of his caliber.",
-                        image: "https://i.postimg.cc/65vjYykh/me.jpg",
+                        image: "https://i.postimg.cc/3JTxvGSz/C11-Jake-Jansen-3.jpg",
                     },
                     {
                         name: "Mu'eed Brown",
