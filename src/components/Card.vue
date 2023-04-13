@@ -28,10 +28,10 @@
             return{
                 people:[
                     {
-                        name: "Jia Daniels",
+                        name: "Ryan Thomas",
                         testimonials: "Abdul is a very productive and efficient person. He takes pride in his work and works very well in teams as well as alone. He is trustworthy and loyal and would be a great addition to any company.",
-                        image: "https://i.postimg.cc/rmGy1V8y/IMG-9927.jpg",
-                        role: "Colleague/Web Developer",
+                        image: "https://i.postimg.cc/PNGbb03B/image.jpg",
+                        role: "Lecturer/Mentor",
                     },
                     {
                         name: "Savannah Samuels",
