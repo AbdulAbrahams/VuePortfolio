@@ -29,7 +29,7 @@
                 people:[
                     {
                         name: "Ryan Thomas",
-                        testimonials: "Abdul is a very productive and efficient person. He takes pride in his work and works very well in teams as well as alone. He is trustworthy and loyal and would be a great addition to any company.",
+                        testimonials: "Abdul is a super hard working individual. He's a fast learner and always strives for perfection in whatever he does. He has the potential to be a strong leader as he leads a team/group quite well.",
                         image: "https://i.postimg.cc/PNGbb03B/image.jpg",
                         role: "Lecturer/Mentor",
                     },
