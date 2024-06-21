@@ -4,7 +4,7 @@
   <section class="aboutsec container-lg"  id="About">
     <div class="me">
       <div class="myLines"></div>
-      <img src="https://i.postimg.cc/Dyk0JM0n/landing-pic.png" class="aboutpic">
+      <img src="https://iili.io/dH1bC8X.png" class="aboutpic">
     </div>
       
       <div>
