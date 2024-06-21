@@ -4,7 +4,7 @@
 
     <main class="homeBack">
     <div class="homes">
-        <img src="https://i.postimg.cc/V6kJtpmG/d3cc6718eaa8898fba1e612e62511bd9.gif">
+        <img src="https://iili.io/dH1seAx.gif">
         <h4>Web Developer</h4>
         <h1>Abdul Wahhaab Abrahams</h1>
         <button class="learnBtn btn">
