@@ -15,25 +15,34 @@
               return{
                   skills:[
                     {
-                        image: 'https://i.postimg.cc/76DKxRLK/pngegg-5.png'
+                        image: 'https://i.postimg.cc/kgnXtM8B/HTML3.png'
                     },
                     {
-                        image: 'https://i.postimg.cc/G2yjQ2YH/html-png.png'
+                        image: 'https://i.postimg.cc/0QZ848Jw/css.png'
                     },
                     {
-                        image: 'https://i.postimg.cc/gcKhP8YG/bootstrap.png'
+                        image: 'https://i.postimg.cc/W3cGMJ7M/bootstrap.png'
                     },
                     {
-                        image: 'https://i.postimg.cc/152h991M/pngegg-7.png'
+                        image: 'https://i.postimg.cc/TYsWVDdp/JS.png'
                     },
                     {
-                        image: 'https://i.postimg.cc/QMSTTYb4/pngegg-6.png'
+                        image: 'https://i.postimg.cc/76P68HHF/Vue.png'
                     },
                     {
-                        image: 'https://i.postimg.cc/CxMw1XgR/pngegg-2.png'
+                        image: 'https://i.postimg.cc/43YGzY3N/MySQL.png'
                     },
                     {
-                        image: 'https://i.postimg.cc/Zn6MFbrJ/pngegg-1.png'
+                        image: 'https://i.postimg.cc/K8KpfBtV/Node.png'
+                    },
+                    {
+                        image: 'https://i.postimg.cc/x1bgMY2V/Wordpress.png'
+                    },
+                    {
+                        image: 'https://i.postimg.cc/ZYpfDpsv/Java.png'
+                    },
+                    {
+                        image: 'https://i.postimg.cc/Hsjt1MBt/sel-3.png'
                     }
                   ]
              }
